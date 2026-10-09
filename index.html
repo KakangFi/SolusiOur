@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#11132b">
+<meta name="description" content="SolusiKita AI — alat sederhana untuk keuangan, pendidikan, karier, dan bisnis.">
+<title>SolusiKita AI — Satu Website, Banyak Solusi</title>
+<style>
+:root{--bg:#0c1023;--panel:#151a35;--panel2:#1c2345;--text:#f5f7ff;--muted:#aeb7d6;--line:#30385f;--purple:#9874ff;--cyan:#58e1e7;--pink:#ff78b7;--green:#63e6a6;--danger:#ff8b9c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#29215a 0,transparent 34%),radial-gradient(circle at 0% 30%,#102e50 0,transparent 27%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{max-width:1160px;margin:auto;padding:0 22px}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;border-bottom:1px solid #ffffff12}.brand{display:flex;gap:10px;align-items:center;font-weight:850;font-size:1.12rem;letter-spacing:-.4px}.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--purple),var(--cyan));color:#10142a;font-size:23px;box-shadow:0 8px 25px #6c68ff33}.navlinks{display:flex;gap:17px;flex-wrap:wrap}.navlinks a{color:var(--muted);text-decoration:none;font-size:.92rem}.navlinks a:hover{color:white}.hero{padding:68px 0 44px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#c6bcff;background:#9b7bff1c;border:1px solid #9b7bff50;padding:7px 12px;border-radius:99px;font-size:.83rem;font-weight:700}.hero h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.04;letter-spacing:-3px;margin:19px 0}.gradient{background:linear-gradient(95deg,#bba5ff,#62e5e5 58%,#ff9bc9);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{color:var(--muted);font-size:1.08rem;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{border:0;border-radius:13px;padding:12px 17px;font-weight:800;transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(100deg,var(--purple),#5acfe4);color:#10142a}.secondary{background:#ffffff0c;border:1px solid var(--line);color:var(--text)}.hero-card{background:linear-gradient(145deg,#25254fdd,#12182ddd);border:1px solid #ffffff20;border-radius:28px;padding:24px;box-shadow:0 24px 80px #0004;position:relative;overflow:hidden}.hero-card:before{content:"";position:absolute;width:190px;height:190px;right:-70px;top:-80px;border-radius:50%;background:#9c72ff35;filter:blur(8px)}.hero-card h3{margin:0 0 5px}.hero-card p{font-size:.9rem;margin:0 0 18px}.mini-stat{display:flex;justify-content:space-between;gap:15px;padding:14px 0;border-bottom:1px solid #ffffff12}.mini-stat:last-child{border:0}.mini-stat small{display:block;color:var(--muted)}.mini-stat strong{font-size:1.05rem}.section{padding:34px 0 48px}.section-head{margin-bottom:22px}.section-head h2{font-size:clamp(1.7rem,3vw,2.4rem);letter-spacing:-1px;margin:0 0 6px}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,#171d3b,#12172f);border:1px solid var(--line);border-radius:20px;padding:21px;min-width:0}.card-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;font-size:24px;background:#9277ff20;margin-bottom:14px}.card h3{margin:0 0 7px}.card p{color:var(--muted);font-size:.94rem;margin:0 0 16px}.tag{display:inline-block;border:1px solid #ffffff1b;background:#ffffff08;border-radius:99px;padding:4px 9px;font-size:.76rem;color:#d5d9f0;margin-bottom:12px}.tool-layout{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:6px;margin:12px 0}.field label{font-size:.9rem;color:#d8def6;font-weight:650}.field input,.field select,.field textarea{width:100%;background:#0c1127;color:var(--text);border:1px solid #394267;border-radius:11px;padding:11px 12px;outline:none}.field textarea{min-height:115px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #58e1e71a}.result{margin-top:14px;padding:16px;border-radius:14px;background:#0b1228;border:1px dashed #46517d;white-space:pre-wrap;overflow-wrap:anywhere}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}.stat{padding:12px;border-radius:13px;background:#ffffff08;border:1px solid #ffffff12}.stat small{display:block;color:var(--muted);font-size:.78rem}.stat strong{display:block;margin-top:4px;overflow-wrap:anywhere}.note{color:var(--muted);font-size:.83rem}.list{padding-left:19px;color:var(--muted)}.footer{border-top:1px solid #ffffff16;margin-top:25px;padding:25px 0 38px;color:var(--muted);font-size:.87rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.pill{display:inline-block;background:#63e6a61a;color:var(--green);border:1px solid #63e6a63d;border-radius:99px;padding:5px 9px;font-size:.77rem}.hidden{display:none!important}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#e8fff5;color:#102a23;padding:11px 16px;border-radius:12px;font-weight:750;box-shadow:0 8px 30px #0005;z-index:10;display:none}.small-btn{padding:8px 11px;font-size:.85rem}.divider{height:1px;background:#ffffff14;margin:17px 0}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:45px}.hero h1{letter-spacing:-1.7px}.grid{grid-template-columns:1fr 1fr}.tool-layout{grid-template-columns:1fr}.navlinks{display:none}.hero-card{max-width:560px}}@media(max-width:520px){.wrap{padding:0 15px}.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.hero{gap:23px}.card{padding:18px}.section{padding:25px 0 35px}.hero h1{font-size:2.8rem}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <nav class="nav">
+    <div class="brand"><div class="logo">✦</div><span>SolusiKita <span class="gradient">AI</span></span></div>
+    <div class="navlinks"><a href="#fitur">Fitur</a><a href="#keuangan">Keuangan</a><a href="#konten">Bisnis</a><a href="#belajar">Pendidikan</a></div>
+    <a class="btn secondary small-btn" href="#fitur">Mulai Gratis ↗</a>
+  </nav>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <span class="eyebrow">✦ TEMAN DIGITAL SEHARI-HARI</span>
+      <h1>Satu website,<br><span class="gradient">banyak solusi.</span></h1>
+      <p>Bantu hidup lebih teratur, kelola uang dengan bijak, siapkan materi belajar, dan buat promosi bisnis—dalam satu tempat yang mudah digunakan.</p>
+      <div class="actions"><a class="btn primary" href="#fitur">Jelajahi fitur ↓</a><a class="btn secondary" href="#keuangan">Coba kalkulator uang</a></div>
+      <p class="note">Gratis digunakan • Ramah HP • Bahasa Indonesia</p>
+    </div>
+    <div class="hero-card">
+      <span class="pill">Pusat solusi harian</span>
+      <h3 style="font-size:1.5rem;margin-top:12px">Mulai dari langkah kecil.</h3>
+      <p>Alat praktis untuk membantu mengambil keputusan sehari-hari.</p>
+      <div class="mini-stat"><div><small>Kelola keuangan</small><strong>💸 Anggaran & tabungan</strong></div><span>01</span></div>
+      <div class="mini-stat"><div><small>Kembangkan bisnis</small><strong>🚀 Ide konten & promosi</strong></div><span>02</span></div>
+      <div class="mini-stat"><div><small>Belajar lebih terarah</small><strong>📚 Worksheet & aktivitas</strong></div><span>03</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="fitur">
+    <div class="section-head"><h2>Solusi untuk kebutuhanmu</h2><p>Pilih alat yang kamu butuhkan dan langsung coba.</p></div>
+    <div class="grid">
+      <article class="card"><div class="card-icon">💰</div><span class="tag">Keuangan pribadi</span><h3>Dompet Cerdas</h3><p>Hitung pemasukan, pengeluaran, saldo, dan target tabungan secara praktis.</p><a class="btn secondary" href="#keuangan">Coba sekarang →</a></article>
+      <article class="card"><div class="card-icon">📣</div><span class="tag">UMKM & kreator</span><h3>JualanMudah</h3><p>Buat ide promosi, caption, dan deskripsi produk dari detail jualanmu.</p><a class="btn secondary" href="#konten">Buat konten →</a></article>
+      <article class="card"><div class="card-icon">📚</div><span class="tag">Pendidikan</span><h3>EduKreator</h3><p>Susun rancangan worksheet belajar yang bisa disalin dan dicetak.</p><a class="btn secondary" href="#belajar">Buat worksheet →</a></article>
+      <article class="card"><div class="card-icon">🧑‍💼</div><span class="tag">Karier</span><h3>KerjaSiap</h3><p>Susun draf profil CV dan surat lamaran dari informasi yang kamu masukkan.</p><a class="btn secondary" href="#karier">Siapkan lamaran →</a></article>
+      <article class="card"><div class="card-icon">🛡️</div><span class="tag">Keamanan digital</span><h3>AntiTipu</h3><p>Pelajari tanda bahaya pesan, lowongan, atau penawaran yang mencurigakan.</p><a class="btn secondary" href="#antitipu">Cek panduan →</a></article>
+      <article class="card"><div class="card-icon">✨</div><span class="tag">Produktivitas</span><h3>Rencana Hari Ini</h3><p>Tulis prioritas harian supaya aktivitas lebih jelas dan terarah.</p><a class="btn secondary" href="#harian">Atur harimu →</a></article>
+    </div>
+  </section>
+
+  <section class="section" id="keuangan">
+    <div class="section-head"><h2>💰 Dompet Cerdas</h2><p>Catat angka keuanganmu. Data disimpan di browser perangkat ini.</p></div>
+    <div class="tool-layout">
+      <div class="card">
+        <h3>Catat keuangan</h3>
+        <div class="field"><label for="income">Total pemasukan (Rp)</label><input id="income" type="number" min="0" placeholder="Contoh: 3000000"></div>
+        <div class="field"><label for="expense">Total pengeluaran (Rp)</label><input id="expense" type="number" min="0" placeholder="Contoh: 1800000"></div>
+        <div class="field"><label for="target">Target tabungan (Rp)</label><input id="target" type="number" min="0" placeholder="Contoh: 5000000"></div>
+        <button class="btn primary" id="saveMoney">Hitung & simpan</button> <button class="btn secondary" id="resetMoney">Reset</button>
+        <p class="note">Masukkan total untuk periode yang sama, misalnya satu bulan.</p>
+      </div>
+      <div class="card">
+        <h3>Ringkasan keuanganmu</h3>
+        <div class="stats">
+          <div class="stat"><small>Sisa saldo</small><strong id="balance">Rp0</strong></div>
+          <div class="stat"><small>Rasio tabungan</small><strong id="ratio">0%</strong></div>
+          <div class="stat"><small>Target tercapai</small><strong id="targetProgress">0%</strong></div>
+        </div>
+        <div id="moneyAdvice" class="result">Isi pemasukan dan pengeluaran, lalu tekan “Hitung & simpan”.</div>
+        <p class="note">Ini alat pencatatan sederhana, bukan nasihat keuangan profesional.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="konten">
+    <div class="section-head"><h2>📣 JualanMudah</h2><p>Buat draf promosi yang bisa kamu edit sesuai karakter merek.</p></div>
+    <div class="tool-layout">
+      <div class="card">
+        <div class="field"><label for="product">Nama produk/jasa</label><input id="product" placeholder="Contoh: planner keuangan digital"></div>
+        <div class="field"><label for="audience">Target pembeli</label><input id="audience" placeholder="Contoh: mahasiswa dan pekerja muda"></div>
+        <div class="field"><label for="benefit">Manfaat utama</label><textarea id="benefit" placeholder="Apa manfaat paling penting dari produkmu?"></textarea></div>
+        <div class="field"><label for="tone">Gaya promosi</label><select id="tone"><option value="hangat dan bersahabat">Hangat dan bersahabat</option><option value="profesional">Profesional</option><option value="ceria dan energik">Ceria dan energik</option><option value="singkat dan langsung">Singkat dan langsung</option></select></div>
+        <button class="btn primary" id="makeCaption">Buat draf promosi</button>
+      </div>
+      <div class="card"><h3>Hasil draf</h3><div class="result" id="captionResult">Hasil promosi akan muncul di sini. Generator ini menggunakan pola teks lokal, bukan AI online.</div><button class="btn secondary" id="copyCaption">Salin teks</button></div>
+    </div>
+  </section>
+
+  <section class="section" id="belajar">
+    <div class="section-head"><h2>📚 EduKreator</h2><p>Rancang worksheet sederhana berdasarkan materi yang kamu pilih.</p></div>
+    <div class="tool-layout">
+      <div class="card">
+        <div class="field"><label for="grade">Kelas/tingkat</label><select id="grade"><option>PAUD</option><option>SD kelas 1</option><option>SD kelas 2</option><option>SD kelas 3</option><option>SD kelas 4</option><option>SD kelas 5</option><option>SD kelas 6</option><option>SMP</option><option>SMA/SMK</option></select></div>
+        <div class="field"><label for="subject">Mata pelajaran</label><select id="subject"><option>Matematika</option><option>Bahasa Indonesia</option><option>Bahasa Inggris</option><option>IPAS</option><option>Pendidikan Agama Islam</option><option>Pengetahuan umum</option></select></div>
+        <div class="field"><label for="topic">Topik/materi</label><input id="topic" placeholder="Contoh: pecahan sederhana"></div>
+        <div class="field"><label for="activity">Jenis aktivitas</label><select id="activity"><option>Latihan isian</option><option>Aktivitas kreatif</option><option>Benar atau salah</option><option>Rangkuman dan refleksi</option></select></div>
+        <button class="btn primary" id="makeWorksheet">Buat worksheet</button>
+      </div>
+      <div class="card"><h3>Draf worksheet</h3><div id="worksheetResult" class="result">Isi topik untuk membuat draf worksheet. Periksa kembali kesesuaian materi sebelum dibagikan kepada siswa.</div><button class="btn secondary" id="copyWorksheet">Salin worksheet</button><button class="btn secondary" id="printWorksheet">Cetak / Simpan PDF</button></div>
+    </div>
+  </section>
+
+  <section class="section" id="karier">
+    <div class="section-head"><h2>🧑‍💼 KerjaSiap</h2><p>Susun draf ringkas untuk membantu persiapan melamar kerja.</p></div>
+    <div class="tool-layout">
+      <div class="card">
+        <div class="field"><label for="fullname">Nama</label><input id="fullname" placeholder="Nama lengkap"></div>
+        <div class="field"><label for="job">Posisi yang dilamar</label><input id="job" placeholder="Contoh: Admin toko"></div>
+        <div class="field"><label for="skills">Keahlian dan pengalaman</label><textarea id="skills" placeholder="Tuliskan kemampuan, pengalaman, atau proyek yang relevan"></textarea></div>
+        <button class="btn primary" id="makeCV">Buat draf profil & surat lamaran</button>
+      </div>
+      <div class="card"><h3>Draf lamaran</h3><div id="cvResult" class="result">Hasil draf akan muncul di sini.</div><button class="btn secondary" id="copyCV">Salin draf</button></div>
+    </div>
+  </section>
+
+  <section class="section" id="antitipu">
+    <div class="section-head"><h2>🛡️ Panduan AntiTipu</h2><p>Kenali tanda bahaya sebelum mengeklik tautan atau mengirim uang.</p></div>
+    <div class="card">
+      <div class="field"><label for="suspicious">Tempel pesan atau tawaran yang membuatmu ragu (opsional)</label><textarea id="suspicious" placeholder="Jangan masukkan kata sandi, OTP, nomor rekening lengkap, atau data pribadi sensitif."></textarea></div>
+      <button class="btn primary" id="checkScam">Tampilkan panduan pemeriksaan</button>
+      <div id="scamResult" class="result hidden"></div>
+      <ul class="list">
+        <li>Waspadai desakan untuk segera mentransfer uang atau memberikan OTP/PIN.</li>
+        <li>Jangan klik tautan atau mengunduh file yang tidak jelas sumbernya.</li>
+        <li>Verifikasi identitas pengirim melalui kanal resmi yang kamu cari sendiri.</li>
+        <li>Janji keuntungan pasti, biaya awal untuk mendapat pekerjaan, atau hadiah tak terduga perlu diperiksa dengan cermat.</li>
+      </ul>
+      <p class="note">Pemeriksaan di halaman ini hanya panduan berbasis kata kunci, bukan deteksi penipuan yang pasti. Untuk kasus finansial, gunakan kanal pengaduan resmi.</p>
+    </div>
+  </section>
+
+  <section class="section" id="harian">
+    <div class="section-head"><h2>✨ Rencana Hari Ini</h2><p>Tulis prioritasmu dan tandai tugas yang sudah selesai.</p></div>
+    <div class="card">
+      <div class="field"><label for="taskInput">Tambahkan tugas</label><input id="taskInput" placeholder="Contoh: belajar 20 menit"></div>
+      <button class="btn primary" id="addTask">Tambah tugas</button>
+      <div id="taskList" style="margin-top:15px"></div>
+      <button class="btn secondary small-btn" id="clearTasks">Hapus semua tugas</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card" style="background:linear-gradient(110deg,#25204d,#14354b)">
+      <h2 style="margin-top:0">Mulai dari satu langkah kecil ✨</h2>
+      <p style="color:var(--muted)">SolusiKita AI adalah kumpulan alat praktis untuk membantu aktivitas sehari-hari. Pilih fitur yang paling berguna bagimu dan kembangkan kebiasaan yang lebih baik.</p>
+      <a href="#fitur" class="btn primary">Kembali ke fitur ↑</a>
+    </div>
+  </section>
+</main>
+<footer class="wrap footer"><span>© <span id="year"></span> SolusiKita AI</span><span>Alat praktis • Privasi lokal • Dibuat untuk membantu</span></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const $=id=>document.getElementById(id);
+const rupiah=n=>new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(Number(n)||0);
+function toast(msg){const t=$('toast');t.textContent=msg;t.style.display='block';clearTimeout(window._toastTimer);window._toastTimer=setTimeout(()=>t.style.display='none',2200)}
+async function copyText(text){if(!text||text.startsWith('Hasil')||text.startsWith('Isi topik')){toast('Buat hasil terlebih dahulu.');return}try{await navigator.clipboard.writeText(text);toast('Teks berhasil disalin!')}catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();toast('Teks berhasil disalin!')}}
+$('year').textContent=new Date().getFullYear();
+function loadMoney(){try{const m=JSON.parse(localStorage.getItem('sk_money')||'{}');$('income').value=m.income??'';$('expense').value=m.expense??'';$('target').value=m.target??'';calcMoney(false)}catch(e){}}
+function calcMoney(save=true){const inc=Math.max(0,Number($('income').value)||0),exp=Math.max(0,Number($('expense').value)||0),target=Math.max(0,Number($('target').value)||0),bal=inc-exp;const saving=Math.max(0,bal);$('balance').textContent=rupiah(bal);$('ratio').textContent=(inc?Math.round(saving/inc*100):0)+'%';$('targetProgress').textContent=(target?Math.min(100,Math.round(saving/target*100)):0)+'%';let advice=bal<0?'Pengeluaran melebihi pemasukan. Tinjau kembali kebutuhan dan pengeluaran yang bisa dikurangi.':bal===0?'Pemasukan dan pengeluaran seimbang. Coba sisihkan tabungan saat menerima pemasukan.':target&&saving>=target?'Bagus! Sisa uangmu sudah mencapai target tabungan yang dimasukkan.':'Ada sisa '+rupiah(bal)+'. Tentukan porsi tabungan yang realistis dan sisakan dana untuk kebutuhan penting.';$('moneyAdvice').textContent=advice;if(save){localStorage.setItem('sk_money',JSON.stringify({income:inc,expense:exp,target}));toast('Ringkasan keuangan disimpan di perangkat ini.')}}$('saveMoney').addEventListener('click',()=>calcMoney(true));$('resetMoney').addEventListener('click',()=>{['income','expense','target'].forEach(id=>$(id).value='');localStorage.removeItem('sk_money');calcMoney(false);toast('Data keuangan direset.')});loadMoney();
+$('makeCaption').addEventListener('click',()=>{const p=$('product').value.trim(),a=$('audience').value.trim(),b=$('benefit').value.trim(),tone=$('tone').value;if(!p||!a||!b){toast('Lengkapi nama produk, target, dan manfaat.');return}let opener=tone==='profesional'?'Perkenalkan solusi praktis untuk kebutuhan Anda.':tone==='ceria dan energik'?'✨ Yuk, kenalan dengan produk yang bisa bantu aktivitasmu!':tone==='singkat dan langsung'?'Butuh solusi yang praktis?':'Hai! Ada pilihan menarik yang mungkin cocok buat kamu 😊';$('captionResult').textContent=opener+'\n\n📌 '+p+'\n\nDirancang untuk '+a+'.\nManfaat: '+b+'.\n\nTertarik mengetahui lebih lanjut? Kirim pesan untuk detail produk dan cara mendapatkannya.\n\n#SolusiPraktis #PilihanCerdas';});
+$('copyCaption').addEventListener('click',()=>copyText($('captionResult').textContent));
+$('makeWorksheet').addEventListener('click',()=>{
+  const grade=$('grade').value, subject=$('subject').value, topic=$('topic').value.trim(), activity=$('activity').value;
+  if(!topic){toast('Masukkan topik/materi terlebih dahulu.');return;}
+  const body=`WORKSHEET PEMBELAJARAN
+${subject.toUpperCase()}
+
+Kelas: ${grade}
+Topik: ${topic}
+Aktivitas: ${activity}
+Nama: ____________________    Tanggal: ______________
+
+TUJUAN BELAJAR
+Saya dapat memahami dan menjelaskan materi ${topic}.
+
+PETUNJUK
+Bacalah topik ${topic} dari sumber belajar yang diberikan guru. Kerjakan aktivitas berikut dengan teliti.
+
+KEGIATAN 1 — Pahami Materi
+Tuliskan tiga hal penting yang kamu pelajari tentang ${topic}.
+1. __________________________________________________
+2. __________________________________________________
+3. __________________________________________________
+
+KEGIATAN 2 — ${activity.toUpperCase()}
+1. Jelaskan dengan kata-katamu sendiri apa yang kamu pahami tentang ${topic}.
+   Jawaban: __________________________________________
+2. Tuliskan satu contoh yang berkaitan dengan ${topic}.
+   Jawaban: __________________________________________
+3. Buat satu pertanyaan yang masih ingin kamu ketahui tentang ${topic}.
+   Pertanyaan: _______________________________________
+
+KEGIATAN 3 — Refleksi
+Hal yang paling saya pahami: __________________________
+Hal yang ingin saya pelajari lagi: ______________________
+
+Catatan guru/orang tua: _______________________________
+
+— SolusiKita AI | Periksa dan sesuaikan isi dengan materi pembelajaran —`;
+  $('worksheetResult').textContent=body;
+});
+$('copyWorksheet').addEventListener('click',()=>copyText($('worksheetResult').textContent));$('printWorksheet').addEventListener('click',()=>{const content=$('worksheetResult').textContent;if(content.startsWith('Isi topik')){toast('Buat worksheet terlebih dahulu.');return}const w=window.open('','_blank');if(!w){toast('Izinkan pop-up untuk mencetak worksheet.');return}w.document.write('<!doctype html><html lang="id"><head><meta charset="utf-8"><title>Worksheet</title><style>@page{size:A4;margin:18mm}body{font-family:Arial,sans-serif;color:#111;white-space:pre-wrap;line-height:1.65;font-size:12pt}</style></head><body></body></html>');w.document.body.textContent=content;w.document.close();w.focus();setTimeout(()=>w.print(),300)});
+$('makeCV').addEventListener('click',()=>{
+  const name=$('fullname').value.trim(), job=$('job').value.trim(), skills=$('skills').value.trim();
+  if(!name||!job||!skills){toast('Lengkapi nama, posisi, dan keahlian.');return;}
+  $('cvResult').textContent=`PROFIL SINGKAT
+${name}
+
+Kandidat ${job} yang memiliki minat untuk berkontribusi secara profesional. Keahlian dan pengalaman yang relevan:
+${skills}
+
+DRAF SURAT LAMARAN
+Yth. Tim Rekrutmen,
+
+Saya, ${name}, bermaksud mengajukan lamaran untuk posisi ${job}. Saya memiliki bekal kemampuan/pengalaman sebagai berikut: ${skills}. Saya siap belajar, bekerja sama, dan menjalankan tanggung jawab sesuai kebutuhan posisi.
+
+Terima kasih atas waktu dan pertimbangannya.
+Hormat saya,
+${name}
+
+Catatan: sesuaikan draf ini dengan pengalaman sebenarnya dan persyaratan lowongan.`;
+});
+$('copyCV').addEventListener('click',()=>copyText($('cvResult').textContent));
+$('checkScam').addEventListener('click',()=>{
+ const txt=$('suspicious').value.trim();
+ const patterns=[
+  [/otp|pin|kata sandi|password|kode verifikasi/i,'Permintaan data rahasia'],
+  [/transfer|biaya admin|bayar dulu|deposit|uang muka/i,'Permintaan pembayaran'],
+  [/menang hadiah|hadiah gratis|selamat anda|klaim hadiah/i,'Klaim hadiah yang perlu diverifikasi'],
+  [/keuntungan pasti|profit pasti|cuan dijamin|investasi dijamin/i,'Janji keuntungan pasti'],
+  [/segera|sekarang juga|hanya hari ini|akun diblokir/i,'Tekanan untuk bertindak cepat'],
+  [/lowongan kerja|gaji besar|kerja dari rumah/i,'Tawaran pekerjaan yang perlu diverifikasi'],
+  [/bit\.ly|tinyurl|http:\/\/|https:\/\//i,'Tautan yang perlu diperiksa']
+ ];
+ const hits=patterns.filter(([re])=>re.test(txt)).map(([,label])=>'• '+label);
+ let out;
+ if(!txt){out='PANDUAN UMUM\n\n'+patterns.map(([,label])=>'• '+label).join('\n')+'\n\nSelalu verifikasi melalui kanal resmi. Pemeriksaan ini hanya berbasis kata kunci dan tidak memastikan suatu pesan penipuan atau aman.';}
+ else {out='HASIL PEMERIKSAAN AWAL\n\n'+(hits.length?'Tanda yang perlu diperiksa:\n'+hits.join('\n'):'Tidak ditemukan kata kunci umum dalam pemeriksaan sederhana ini. Itu bukan berarti pesan pasti aman.')+'\n\nLangkah aman:\n1. Jangan kirim OTP, PIN, atau kata sandi.\n2. Jangan transfer sebelum memverifikasi pihak terkait.\n3. Periksa informasi melalui kanal resmi yang dicari secara mandiri.\n4. Simpan bukti jika merasa telah menjadi korban.';}
+ $('scamResult').textContent=out;$('scamResult').classList.remove('hidden');
+});
+function readTasks(){try{return JSON.parse(localStorage.getItem('sk_tasks')||'[]')}catch(e){return []}}function saveTasks(items){localStorage.setItem('sk_tasks',JSON.stringify(items));renderTasks()}function renderTasks(){const items=readTasks(),box=$('taskList');box.innerHTML='';if(!items.length){box.innerHTML='<p class="note">Belum ada tugas. Tambahkan satu prioritas kecil.</p>';return}items.forEach((t,i)=>{const row=document.createElement('div');row.style.cssText='display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #ffffff14';const cb=document.createElement('input');cb.type='checkbox';cb.checked=t.done;cb.setAttribute('aria-label','Tandai tugas selesai');cb.addEventListener('change',()=>{const a=readTasks();a[i].done=cb.checked;saveTasks(a)});const span=document.createElement('span');span.textContent=t.text;span.style.flex='1';span.style.overflowWrap='anywhere';if(t.done)span.style.textDecoration='line-through';const del=document.createElement('button');del.className='btn secondary small-btn';del.textContent='Hapus';del.addEventListener('click',()=>{const a=readTasks();a.splice(i,1);saveTasks(a)});row.append(cb,span,del);box.appendChild(row)})}
+$('addTask').addEventListener('click',()=>{const v=$('taskInput').value.trim();if(!v){toast('Tulis tugas terlebih dahulu.');return}const a=readTasks();a.push({text:v,done:false});saveTasks(a);$('taskInput').value='';toast('Tugas ditambahkan.')});$('taskInput').addEventListener('keydown',e=>{if(e.key==='Enter')$('addTask').click()});$('clearTasks').addEventListener('click',()=>{if(confirm('Hapus semua tugas?')){localStorage.removeItem('sk_tasks');renderTasks()}});renderTasks();
+</script>
+</body>
+</html>
